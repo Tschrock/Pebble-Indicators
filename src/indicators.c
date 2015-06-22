@@ -1,3 +1,11 @@
+/**
+    Pebble Indicators
+    Bluetooth and Battery indicators for a pebble app/watchface using spritesheets.
+
+    Author: Tschrock (tschrock123@gmail.com)
+    Version: 1.0 6/22/15
+*/
+
 #include <pebble.h>
 #include "indicators.h"
   
