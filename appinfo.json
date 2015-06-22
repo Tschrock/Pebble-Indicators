@@ -1,0 +1,44 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "tschrock123@gmail.com",
+    "longName": "Pebble Indicators",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/Bluetooth_BaW.png",
+                "name": "BLTH_BAW",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/Battery Sheet-1-0.png",
+                "name": "BATT_BAW",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/Bluetooth_Color.png",
+                "name": "BLTH_COLOR",
+                "type": "png"
+            },
+            {
+                "file": "images/Battery Sheet-1-0c.png",
+                "name": "BATT_COLOR",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Pebble Indicators",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "1092f509-a7c8-4384-a219-12fe5267a240",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
