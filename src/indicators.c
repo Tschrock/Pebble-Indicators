@@ -162,6 +162,12 @@ void deinitBatteryIcon() {
   gbitmap_destroy(s_battery_bitmap);
   bitmap_layer_destroy(s_battery_layer);
   
+  #ifdef PBL_BW
+    gbitmap_destroy(s_battery_subbitmap2);
+    gbitmap_destroy(s_battery_bitmap2);
+    bitmap_layer_destroy(s_battery_layer2);
+  #endif
+  
   if(batterySubscribe) {
     battery_state_service_unsubscribe();
   }
@@ -201,6 +207,12 @@ void deinitBluetoothIcon() {
   gbitmap_destroy(s_bluetooth_bitmap);
   bitmap_layer_destroy(s_bluetooth_layer);
   
+  #ifdef PBL_BW
+    gbitmap_destroy(s_bluetooth_subbitmap2);
+    gbitmap_destroy(s_bluetooth_bitmap2);
+    bitmap_layer_destroy(s_bluetooth_layer2);
+  #endif
+    
   if(bluetoothSubscribe) {
     bluetooth_connection_service_unsubscribe();
   }
